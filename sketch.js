@@ -24,7 +24,7 @@ createCanvas(400,400);
   
 path = createSprite(200,200);
 path.addImage(pathImg);
-path.velocityY = 4;
+path.velocityY = 6;
   
 boy = createSprite(200,330,20,20);
 boy.addAnimation("SahilRunning",boyImg);
@@ -106,7 +106,7 @@ function createCash() {
   10, 10));
   cash.addImage(cashImg);
   cash.scale=0.12;
-  cash.velocityY = 3;
+  cash.velocityY = 5;
   cash.lifetime = 150;
   cashGroup.add(cash);
   }
@@ -117,7 +117,7 @@ function createDiamonds() {
   diamonds = createSprite(Math.round(random(50, 350),40,     10, 10));
   diamonds.addImage(diamondsImg);
   diamonds.scale=0.03;
-  diamonds.velocityY = 3;
+  diamonds.velocityY = 5;
   diamonds.lifetime = 150;
   diamondsGroup.add(diamonds);
 }
@@ -128,7 +128,7 @@ function createJwellery() {
   jwellery = createSprite(Math.round(random(50, 350),40,     10, 10));
   jwellery.addImage(jwelleryImg);
   jwellery.scale=0.13;
-  jwellery.velocityY = 3;
+  jwellery.velocityY = 5;
   jwellery.lifetime = 150;
   jwelleryGroup.add(jwellery);
   }
@@ -140,7 +140,7 @@ function createSword(){
   10, 10));
   sword.addImage(swordImg);
   sword.scale=0.1;
-  sword.velocityY = 3;
+  sword.velocityY = 10;
   sword.lifetime = 150;
   swordGroup.add(sword);
   }
